@@ -1,0 +1,19 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 蓝湖源文件
+lanhu_a800sespeedeye_web/
+
+# 参考文件
+index_加载.html
+
+# 旧部署目录
+dsv4_a800se/
+dsv4_a800se.zip
+
+# Claude 配置
+.claude/
+
+# 本地服务器相关
+*.pid

@@ -1,0 +1,75 @@
+/* ============================================
+   70mai A800SE-SpeedEye — Design Tokens
+   蓝湖设计稿提取的设计系统变量
+   ============================================ */
+
+:root {
+  /* ---------- 颜色 Color ---------- */
+  --color-bg-page: #000000;
+  --color-text-primary: #2c2c31;
+  --color-text-secondary: #979797;
+  --color-text-white: #ffffff;
+  --color-text-black: #000000;
+  --color-accent: #ff631b;
+  --color-accent-rgb: 255, 99, 27;
+  --color-divider: rgba(44, 44, 49, 1);
+  --color-card-bg: #ffffff;
+  --color-overlay: rgba(2, 2, 2, 0.3);
+  --color-gray-block: rgba(144, 144, 144, 1);
+  --color-underline-inactive: rgba(44, 44, 49, 0.3);
+
+  /* ---------- 渐变 Gradient ---------- */
+  --gradient-speedeye: linear-gradient(
+    90deg,
+    rgba(244, 69, 90, 1) 0%,
+    rgba(226, 181, 139, 1) 0%,
+    rgba(226, 181, 139, 1) 0%,
+    rgba(255, 250, 245, 1) 100%,
+    rgba(255, 250, 245, 1) 100%
+  );
+
+  /* ---------- 字体 Font Family ---------- */
+  --font-heading: 'Manrope-Bold', 'Manrope', sans-serif;
+  --font-subheading: 'Manrope-SemiBold', 'Manrope', sans-serif;
+  --font-body: 'Manrope-Regular', 'Manrope', sans-serif;
+  --font-medium: 'Manrope-Medium', 'Manrope', sans-serif;
+  --font-vietnamese: 'SVN-GilroyBold', sans-serif;
+  --font-nav: 'NotoSans-SemiBold', sans-serif;
+
+  /* ---------- 字号 Font Size ---------- */
+  --fs-hero: 88px;
+  --fs-heading-xl: 78px;
+  --fs-vietnam: 60px;
+  --fs-feature-label: 48px;
+  --fs-section-title: 44px;
+  --fs-icon-label: 40px;
+  --fs-hero-sub: 38px;
+  --fs-tab: 36px;
+  --fs-body-lg: 32px;
+  --fs-body: 27px;
+  --fs-spec: 26px;
+  --fs-caption: 24px;
+
+  /* ---------- 行高 Line Height ---------- */
+  --lh-hero: 88px;
+  --lh-heading-xl: 89px;
+  --lh-section-title: 51px;
+  --lh-body: 44px;
+  --lh-body-lg: 48px;
+  --lh-spec: 40px;
+  --lh-caption: 38px;
+  --lh-hero-sub: 77px;
+  --lh-nav: 56px;
+
+  /* ---------- 间距 Spacing ---------- */
+  --content-width: 1920px;
+  --content-margin-left: 480px;
+  --nav-height: 128px;
+  --card-gap: 40px;
+  --card-gap-small: 30px;
+
+  /* ---------- 动画 Animation ---------- */
+  --anim-duration: 0.8s;
+  --anim-delay-base: 0.1s;
+  --anim-offset: 60px;
+}

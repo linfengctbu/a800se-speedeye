@@ -1,0 +1,2103 @@
+/* ============================================
+   70mai A800SE-SpeedEye — Page Styles
+   蓝湖设计稿像素级还原 (rem 单位)
+   设计宽度: 2880px → 76.8rem (基准 37.5px)
+   ============================================ */
+
+@import url('variables.css');
+
+/* =====================
+   0. 全局 & 页面容器
+   ===================== */
+
+.page {
+  background-color: var(--color-bg-page);
+  position: relative;
+  width: 76.8rem;
+  height: 441.2rem;
+  overflow: hidden;
+}
+
+.section_1 {
+  width: 76.8rem;
+  height: 441.2rem;
+  background: url(../img/45fa1de1b3f8ef36b4278f2aba77adab.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.box_2 {
+  width: 76.8rem;
+  height: 437.82rem;
+  margin-bottom: 0.027rem;
+}
+
+/* =====================
+   1. 导航栏 (Navbar)
+   ===================== */
+
+.box_1 {
+  background-color: var(--color-card-bg);
+  width: 76.8rem;
+  height: 3.414rem;
+}
+
+.image_1 {
+  width: 3.707rem;
+  height: 0.96rem;
+  margin: 1.227rem 0 0 12.8rem;
+}
+
+.text_1 {
+  width: 4.107rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.414rem 0 0 6.107rem;
+}
+
+.text_2 {
+  width: 4.507rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.414rem 0 0 1.2rem;
+}
+
+.text_3 {
+  width: 3.04rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.44rem 0 0 1.334rem;
+}
+
+.text_4 {
+  width: 5.147rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.414rem 0 0 1.12rem;
+}
+
+.text_5 {
+  width: 4.827rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.414rem 0 0 1.014rem;
+}
+
+.text_6 {
+  width: 7.467rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-nav);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.494rem;
+  margin: 1.414rem 0 0 1.04rem;
+}
+
+.label_1 {
+  width: 1.067rem;
+  height: 1.067rem;
+  margin: 1.174rem 0 0 0.934rem;
+}
+
+.text-wrapper_1 {
+  border-radius: 0.747rem;
+  height: 1.494rem;
+  border: 0.054rem solid var(--color-text-primary);
+  width: 3.734rem;
+  margin: 0.96rem 12.827rem 0 0.827rem;
+}
+
+.text_7 {
+  width: 1.84rem;
+  height: 0.56rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.694rem;
+  font-family: var(--font-nav);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 0.694rem;
+  margin: 0.454rem 0 0 0.934rem;
+}
+
+/* =====================
+   2. Hero 主视觉区
+   ===================== */
+
+.text-wrapper_2 {
+  width: 76.8rem;
+  height: 38.4rem;
+  background: url(../img/ae290e036355bc488f7b2540fbeec5a5.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.paragraph_1 {
+  width: 18.534rem;
+  height: 4.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 2.347rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 2.347rem;
+  margin: 14.694rem 0 0 12.907rem;
+}
+
+.text_8 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(244, 69, 90, 1) 0%,
+    rgba(226, 181, 139, 1) 0%,
+    rgba(226, 181, 139, 1) 0%,
+    rgba(255, 250, 245, 1) 100%,
+    rgba(255, 250, 245, 1) 100%
+  );
+  width: 11.174rem;
+  height: 2.32rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 2.347rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 2.347rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: -1.76rem 0 0 26.56rem;
+}
+
+.text_9 {
+  width: 24.56rem;
+  height: 1.014rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.014rem;
+  font-family: var(--font-medium);
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 2.054rem;
+  margin: 0.507rem 0 17.04rem 12.854rem;
+}
+
+/* =====================
+   3. 六大功能卡片
+   ===================== */
+
+.block_1 {
+  width: 51.2rem;
+  height: 14.56rem;
+  margin: 4.48rem 0 0 12.8rem;
+}
+
+.text-wrapper_3 {
+  height: 14.56rem;
+  background: url(../img/263529fab12412cdd7b1d9b30a6ac50a.png) 100% no-repeat;
+  background-size: 100% 100%;
+  width: 27.094rem;
+}
+
+.paragraph_2 {
+  width: 11.227rem;
+  height: 3.2rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.6rem;
+  font-family: var(--font-vietnamese);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6rem;
+  margin: 1.307rem 0 0 1.307rem;
+}
+
+.text-wrapper_4 {
+  height: 14.56rem;
+  background: url(../img/f94eaf2a6d0f212cda25c07a6282f33a.png) 100% no-repeat;
+  background-size: 100% 100%;
+  width: 23.147rem;
+}
+
+.paragraph_3 {
+  width: 14.32rem;
+  height: 3.36rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.6rem;
+  font-family: var(--font-vietnamese);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6rem;
+  margin: 1.307rem 0 0 1.36rem;
+}
+
+.block_2 {
+  width: 51.174rem;
+  height: 14.747rem;
+  margin: 0.907rem 0 0 12.8rem;
+}
+
+.text-wrapper_5 {
+  height: 14.747rem;
+  background: url(../img/493a4524e824a51983da015824f017ea.png) 100% no-repeat;
+  background-size: 100% 100%;
+  width: 23.174rem;
+}
+
+.text_10 {
+  width: 12.614rem;
+  height: 1.787rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.6rem;
+  font-family: var(--font-vietnamese);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.6rem;
+  margin: 1.36rem 0 0 1.334rem;
+}
+
+.text-wrapper_6 {
+  height: 14.747rem;
+  background: url(../img/9c9ccdfdfd759b49cb3e5edaa4ced462.png) 100% no-repeat;
+  background-size: 100% 100%;
+  width: 27.067rem;
+}
+
+.paragraph_4 {
+  width: 15.227rem;
+  height: 3.814rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.6rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.6rem;
+  margin: 1.094rem 0 0 1.36rem;
+}
+
+.block_3 {
+  width: 51.2rem;
+  height: 11.547rem;
+  margin: 1.014rem 0 0 12.8rem;
+}
+
+.text-wrapper_7 {
+  height: 11.547rem;
+  background: url(../img/68ea1cc897a2c2cf20369aa89c9b29a7.png) 100% no-repeat;
+  background-size: 100% 100%;
+  width: 14.587rem;
+}
+
+.paragraph_5 {
+  width: 10.56rem;
+  height: 2.507rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.28rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.28rem;
+  margin: 1.334rem 0 0 1.334rem;
+}
+
+.text-wrapper_8 {
+  height: 11.547rem;
+  background: url(../img/3e02ed93977b7088d61b6fe196cb6f6c.png) 100% no-repeat;
+  background-size: 100% 100%;
+  margin-left: 0.96rem;
+  width: 23.147rem;
+}
+
+.text_11 {
+  width: 18.667rem;
+  height: 1.2rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.28rem;
+  font-family: var(--font-vietnamese);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.28rem;
+  margin: 1.28rem 0 0 2.32rem;
+}
+
+.image_2 {
+  width: 11.547rem;
+  height: 11.547rem;
+  margin-left: 0.96rem;
+}
+
+/* =====================
+   4. 全宽横幅 "Engineered for Vietnam"
+   ===================== */
+
+.text-wrapper_9 {
+  height: 21.867rem;
+  background: url(../img/bba0187350e92cc12f5ae0135d60c58f.png) 100% no-repeat;
+  background-size: 100% 100%;
+  margin-top: 4.427rem;
+  width: 76.8rem;
+}
+
+.paragraph_6 {
+  text-shadow: 0 0.054rem 0.427rem rgba(0, 0, 0, 0.47);
+  width: 32.88rem;
+  height: 4.454rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: center;
+  line-height: 2.374rem;
+  margin: 8.774rem 0 0 21.947rem;
+}
+
+/* =====================
+   5. Precision Speed Alerts
+   ===================== */
+
+.block_4 {
+  width: 51.227rem;
+  height: 16.64rem;
+  margin: 3.2rem 0 0 12.774rem;
+}
+
+.text-wrapper_10 {
+  width: 15.547rem;
+  height: 7.36rem;
+  margin-top: 4.987rem;
+}
+
+.text_12 {
+  width: 12.267rem;
+  height: 1.147rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_13 {
+  width: 15.52rem;
+  height: 5.44rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.774rem 0 0 0.027rem;
+}
+
+.image_3 {
+  width: 29.6rem;
+  height: 16.64rem;
+}
+
+/* =====================
+   6. Traffic Sign Reminders
+   ===================== */
+
+.block_5 {
+  width: 46.827rem;
+  height: 16.64rem;
+  margin: 3.254rem 0 0 12.8rem;
+}
+
+.image_4 {
+  width: 29.6rem;
+  height: 16.64rem;
+}
+
+.text-wrapper_11 {
+  width: 14.64rem;
+  height: 4.854rem;
+  margin-top: 6.32rem;
+}
+
+.text_14 {
+  width: 12.32rem;
+  height: 1.174rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_15 {
+  width: 14.56rem;
+  height: 2.934rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.747rem 0 0 0.08rem;
+}
+
+/* =====================
+   7. 地图供应商说明
+   ===================== */
+
+.text_16 {
+  width: 38.427rem;
+  height: 1.76rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  line-height: 1.014rem;
+  margin: 3.2rem 0 0 19.387rem;
+}
+
+/* =====================
+   8. 4G Connectivity
+   ===================== */
+
+.text_17 {
+  width: 16.48rem;
+  height: 2.027rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin: 6.4rem 0 0 30.187rem;
+}
+
+.text-group_1 {
+  width: 46rem;
+  height: 3.654rem;
+  margin: 1.2rem 0 0 15.387rem;
+}
+
+.text_18 {
+  width: 46rem;
+  height: 2.134rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.854rem;
+  font-family: var(--font-body);
+  text-align: center;
+  line-height: 1.28rem;
+}
+
+.text_19 {
+  width: 28.48rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.014rem;
+  margin: 0.774rem 0 0 8.934rem;
+}
+
+/* =====================
+   9. App Live Streaming
+   ===================== */
+
+.block_6 {
+  background-color: var(--color-gray-block);
+  height: 24.187rem;
+  width: 51.2rem;
+  margin: 2.934rem 0 0 12.8rem;
+}
+
+.text-wrapper_12 {
+  background-color: var(--color-overlay);
+  width: 51.2rem;
+  height: 24.187rem;
+}
+
+.text_20 {
+  width: 10.48rem;
+  height: 1.174rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.334rem;
+}
+
+.text_21 {
+  width: 18.48rem;
+  height: 1.92rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.747rem 0 19.014rem 1.414rem;
+}
+
+/* =====================
+   10. 双功能并排
+   ===================== */
+
+.block_7 {
+  width: 51.2rem;
+  height: 18.134rem;
+  margin: 0.694rem 0 0 12.8rem;
+}
+
+.box_3 {
+  background-color: var(--color-gray-block);
+  height: 18.134rem;
+  width: 25.2rem;
+}
+
+.text-wrapper_13 {
+  background-color: var(--color-overlay);
+  width: 25.2rem;
+  height: 18.134rem;
+}
+
+.text_22 {
+  width: 9.094rem;
+  height: 1.147rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.414rem;
+}
+
+.text_23 {
+  width: 18.294rem;
+  height: 1.92rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.774rem 0 12.96rem 1.414rem;
+}
+
+.box_4 {
+  background-color: var(--color-gray-block);
+  height: 18.134rem;
+  width: 25.2rem;
+}
+
+.text-wrapper_14 {
+  background-color: var(--color-overlay);
+  width: 25.2rem;
+  height: 18.134rem;
+}
+
+.text_24 {
+  width: 9.547rem;
+  height: 1.174rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.334rem;
+}
+
+.text_25 {
+  width: 21.2rem;
+  height: 3.094rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.747rem 0 11.787rem 1.36rem;
+}
+
+/* =====================
+   11. 三个功能卡片
+   ===================== */
+
+.block_8 {
+  width: 51.2rem;
+  height: 18.134rem;
+  margin: 0.8rem 0 0 12.8rem;
+}
+
+.text-wrapper_15 {
+  width: 16.534rem;
+  height: 18.134rem;
+  background: url(../img/6bbb90bac1f3a5e0579e819a98a09a33.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.text_26 {
+  width: 6.214rem;
+  height: 1.147rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.387rem;
+}
+
+.text_27 {
+  width: 12.107rem;
+  height: 1.92rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.774rem 0 12.96rem 1.414rem;
+}
+
+.text-wrapper_16 {
+  width: 16.534rem;
+  height: 18.134rem;
+  background: url(../img/298543f8f19033654feaf25b41add4b2.png) 100% no-repeat;
+  background-size: 100% 100%;
+  margin-left: 0.8rem;
+}
+
+.text_28 {
+  width: 7.84rem;
+  height: 1.174rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.254rem;
+}
+
+.text_29 {
+  width: 13.307rem;
+  height: 3.094rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.747rem 0 11.787rem 1.334rem;
+}
+
+.text-wrapper_17 {
+  width: 16.534rem;
+  height: 18.134rem;
+  background: url(../img/9e0ff9e7cfe0bc77ecd1660d8e182f39.png) 100% no-repeat;
+  background-size: 100% 100%;
+  margin-left: 0.8rem;
+}
+
+.text_30 {
+  width: 10.187rem;
+  height: 1.174rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.387rem;
+}
+
+.text_31 {
+  width: 12.96rem;
+  height: 2.934rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-white);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 0.747rem 0 11.947rem 1.44rem;
+}
+
+/* =====================
+   12. 24H Smart Parking Surveillance
+   ===================== */
+
+.text-group_2 {
+  width: 43.787rem;
+  height: 6.88rem;
+  margin: 6.4rem 0 0 16.507rem;
+}
+
+.text_32 {
+  width: 31.147rem;
+  height: 2.08rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin-left: 6.347rem;
+}
+
+.text_33 {
+  width: 43.787rem;
+  height: 2.134rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.854rem;
+  font-family: var(--font-body);
+  text-align: center;
+  line-height: 1.28rem;
+  margin-top: 1.147rem;
+}
+
+.text_34 {
+  width: 20.48rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.014rem;
+  margin: 0.774rem 0 0 11.814rem;
+}
+
+.image_5 {
+  width: 51.2rem;
+  height: 24.187rem;
+  margin: 2.64rem 0 0 12.8rem;
+}
+
+/* =====================
+   13. Tab 选择器
+   ===================== */
+
+.text-wrapper_18 {
+  width: 27.547rem;
+  height: 0.987rem;
+  margin: 2.214rem 0 0 23.894rem;
+}
+
+.text_35 {
+  width: 12.747rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-accent);
+  font-size: 0.96rem;
+  font-family: var(--font-subheading);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.text_36 {
+  width: 9.84rem;
+  height: 0.96rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.96rem;
+  font-family: var(--font-subheading);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin-top: 0.027rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block_9 {
+  width: 32.534rem;
+  height: 0.054rem;
+  margin: 1.094rem 0 0 22.134rem;
+}
+
+.box_5 {
+  background-color: var(--color-accent);
+  width: 16.267rem;
+  height: 0.054rem;
+  transition: background-color 0.3s;
+}
+
+.box_6 {
+  background-color: var(--color-underline-inactive);
+  width: 16.267rem;
+  height: 0.054rem;
+  transition: background-color 0.3s;
+}
+
+.text_37 {
+  width: 29.867rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.014rem;
+  margin: 1.307rem 0 0 23.627rem;
+}
+
+/* =====================
+   14. Supercapacitor
+   ===================== */
+
+.text_38 {
+  width: 15.04rem;
+  height: 2.027rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin: 6.214rem 0 0 30.934rem;
+}
+
+.text-group_3 {
+  width: 46.32rem;
+  height: 4.907rem;
+  margin: 1.2rem 0 0 15.254rem;
+}
+
+.text_39 {
+  width: 46.32rem;
+  height: 3.414rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.854rem;
+  font-family: var(--font-body);
+  text-align: center;
+  line-height: 1.28rem;
+}
+
+.text_40 {
+  width: 36.214rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.014rem;
+  margin: 0.747rem 0 0 5.2rem;
+}
+
+.image_6 {
+  width: 51.2rem;
+  height: 24.187rem;
+  margin: 2.747rem 0 0 12.8rem;
+}
+
+/* 三个图标 */
+.block_10 {
+  width: 40.72rem;
+  height: 3.254rem;
+  margin: 2.667rem 0 0 17.707rem;
+}
+
+.image_7 {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-top: 0.054rem;
+}
+
+.text_41 {
+  width: 6.934rem;
+  height: 1.094rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-black);
+  font-size: 1.067rem;
+  font-family: var(--font-subheading);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin: 1.334rem 0 0 0.96rem;
+}
+
+.image_8 {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0.027rem 0 0 3.627rem;
+}
+
+.text_42 {
+  width: 7.494rem;
+  height: 0.827rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-black);
+  font-size: 1.067rem;
+  font-family: var(--font-subheading);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin: 1.334rem 0 0 0.587rem;
+}
+
+.image_9 {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left: 2.72rem;
+}
+
+.text_43 {
+  width: 8.08rem;
+  height: 1.067rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-black);
+  font-size: 1.067rem;
+  font-family: var(--font-subheading);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin: 1.334rem 0 0 0.72rem;
+}
+
+/* =====================
+   15. Comprehensive Protection
+   ===================== */
+
+.block_11 {
+  width: 51.147rem;
+  height: 2.454rem;
+  margin: 5.707rem 0 0 12.854rem;
+}
+
+.text_44 {
+  width: 26.16rem;
+  height: 2.027rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-black);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin-top: 0.427rem;
+}
+
+.image_10 {
+  width: 2.454rem;
+  height: 2.454rem;
+  margin-left: 19.28rem;
+}
+
+.image_11 {
+  width: 2.454rem;
+  height: 2.454rem;
+  margin-left: 0.8rem;
+}
+
+/* =====================
+   16. 四列功能卡片
+   ===================== */
+
+.block_12 {
+  width: 64rem;
+  height: 24.534rem;
+  margin: 2.454rem 0 0 12.8rem;
+}
+
+.box_7 {
+  background-color: var(--color-card-bg);
+  width: 16.374rem;
+  height: 24.534rem;
+}
+
+.box_8 {
+  background-color: var(--color-bg-page);
+  width: 16.374rem;
+  height: 12.32rem;
+}
+
+.text-group_4 {
+  width: 13.627rem;
+  height: 8.64rem;
+  margin: 1.334rem 0 2.24rem 1.334rem;
+}
+
+.paragraph_7 {
+  width: 11.12rem;
+  height: 2.534rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.36rem;
+  margin-left: 0.08rem;
+}
+
+.text_45 {
+  width: 13.627rem;
+  height: 3.12rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin-top: 0.614rem;
+}
+
+.text_46 {
+  width: 13.574rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.64rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.014rem;
+  margin-top: 0.774rem;
+}
+
+.box_9 {
+  background-color: var(--color-card-bg);
+  width: 16.374rem;
+  height: 24.534rem;
+  margin-left: 1.067rem;
+}
+
+.section_2 {
+  background-color: var(--color-bg-page);
+  width: 16.374rem;
+  height: 12.32rem;
+}
+
+.text-group_5 {
+  width: 13.04rem;
+  height: 6.267rem;
+  margin: 1.334rem 0 4.614rem 1.334rem;
+}
+
+.paragraph_8 {
+  width: 6.534rem;
+  height: 2.267rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 0.027rem;
+}
+
+.text_47 {
+  width: 13.04rem;
+  height: 3.12rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin-top: 0.88rem;
+}
+
+.box_10 {
+  background-color: var(--color-card-bg);
+  width: 16.374rem;
+  height: 24.534rem;
+  margin-left: 1.067rem;
+}
+
+.image_12 {
+  width: 16.374rem;
+  height: 12.32rem;
+}
+
+.text-group_6 {
+  width: 13.627rem;
+  height: 6.08rem;
+  margin: 1.334rem 0 4.8rem 1.334rem;
+}
+
+.paragraph_9 {
+  width: 9.04rem;
+  height: 2.534rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.36rem;
+  margin-left: 0.054rem;
+}
+
+.text_48 {
+  width: 13.627rem;
+  height: 2.934rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin-top: 0.614rem;
+}
+
+.box_11 {
+  background-color: var(--color-card-bg);
+  width: 11.68rem;
+  height: 24.534rem;
+  margin-left: 1.067rem;
+}
+
+.group_1 {
+  background-color: var(--color-bg-page);
+  width: 11.68rem;
+  height: 12.32rem;
+}
+
+.text_49 {
+  width: 6.48rem;
+  height: 1.147rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 1.174rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 1.334rem 0 0 1.36rem;
+}
+
+.text_50 {
+  width: 10.347rem;
+  height: 2.934rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.174rem;
+  margin: 2rem 0 4.8rem 1.334rem;
+}
+
+/* =====================
+   16b. Comprehensive Protection 轮播样式
+   ===================== */
+
+.image_10,
+.image_11 {
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.image_10:hover,
+.image_11:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.image_10:active,
+.image_11:active {
+  transform: scale(0.95);
+}
+
+/* 轮播容器 */
+.block_12 {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  width: auto;
+}
+
+/* 轮播指示器圆点 */
+.carousel-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+  width: 64rem;
+  margin-left: 12.8rem;
+}
+
+.carousel-dot {
+  width: 0.427rem;
+  height: 0.427rem;
+  border-radius: 50%;
+  background-color: rgba(44, 44, 49, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: var(--color-accent);
+  transform: scale(1.3);
+}
+
+/* =====================
+   17. Specs 规格表
+   ===================== */
+
+.text_51 {
+  width: 5.894rem;
+  height: 2.027rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 2.08rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 2.374rem;
+  margin: 10.187rem 0 0 35.52rem;
+}
+
+.block_13 {
+  width: 47.68rem;
+  height: 24.187rem;
+  margin: 3.76rem 0 0 16.32rem;
+}
+
+.image_13 {
+  width: 15.814rem;
+  height: 24.16rem;
+  margin-top: 0.027rem;
+}
+
+.section_3 {
+  width: 28.56rem;
+  height: 22.934rem;
+}
+
+/* 表头行 */
+.text-wrapper_19 {
+  width: 22.48rem;
+  height: 0.747rem;
+  margin-left: 0.027rem;
+}
+
+.text_52 {
+  width: 5.307rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_53 {
+  width: 6.134rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 4.24rem;
+}
+
+.text_54 {
+  width: 1.494rem;
+  height: 0.56rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 0.027rem 0 0 5.307rem;
+}
+
+/* 数据行 1 */
+.text-wrapper_20 {
+  width: 23.414rem;
+  height: 1.76rem;
+  margin: 0.56rem 0 0 0.054rem;
+}
+
+.paragraph_10 {
+  width: 3.867rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin-top: 0.08rem;
+}
+
+.paragraph_11 {
+  width: 5.44rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin: 0.16rem 0 0 5.734rem;
+}
+
+.paragraph_12 {
+  width: 2.427rem;
+  height: 1.68rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin-left: 5.947rem;
+}
+
+/* 分隔线 */
+.section_4 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.334rem 0 0 0.054rem;
+}
+
+/* 表头行 2 */
+.text-wrapper_21 {
+  width: 24.16rem;
+  height: 0.747rem;
+  margin: 1.307rem 0 0 0.027rem;
+}
+
+.text_55 {
+  width: 4.027rem;
+  height: 0.56rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-top: 0.027rem;
+}
+
+.text_56 {
+  width: 4.454rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 5.574rem;
+}
+
+.text_57 {
+  width: 3.2rem;
+  height: 0.72rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 0.027rem 0 0 6.907rem;
+}
+
+/* 数据行 2 */
+.text-wrapper_22 {
+  width: 24.72rem;
+  height: 1.6rem;
+  margin: 0.64rem 0 0 0.054rem;
+}
+
+.paragraph_13 {
+  width: 4rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+}
+
+.paragraph_14 {
+  width: 3.387rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin-left: 5.6rem;
+}
+
+.paragraph_15 {
+  width: 3.734rem;
+  height: 1.6rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin-left: 8rem;
+}
+
+.section_5 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.334rem 0 0 0.054rem;
+}
+
+/* 表头行 3 */
+.text-wrapper_23 {
+  width: 27.067rem;
+  height: 0.774rem;
+  margin-top: 1.307rem;
+}
+
+.text_58 {
+  width: 3.574rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_59 {
+  width: 8.774rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 6.054rem;
+}
+
+.text_60 {
+  width: 6.054rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 2.614rem;
+}
+
+/* SpeedEye 特性数据 */
+.text-wrapper_24 {
+  width: 21.414rem;
+  height: 2.907rem;
+  margin-top: 0.534rem;
+}
+
+.paragraph_16 {
+  width: 7.894rem;
+  height: 2.827rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  line-height: 1.067rem;
+  margin-top: 0.08rem;
+}
+
+.text_61 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin: 0.08rem 0 0 1.707rem;
+}
+
+.text_62 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 10.96rem;
+}
+
+.section_6 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.334rem 0 0 0.054rem;
+}
+
+/* 缓冲紧急录制 / 24H停车 / 碰撞检测 */
+.section_7 {
+  width: 27.68rem;
+  height: 3.387rem;
+  margin-top: 1.307rem;
+}
+
+.text-group_7 {
+  width: 7.334rem;
+  height: 3.387rem;
+}
+
+.paragraph_17 {
+  width: 7.307rem;
+  height: 1.84rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.067rem;
+  margin-left: 0.027rem;
+}
+
+.text_63 {
+  width: 6.774rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-top: 0.774rem;
+}
+
+.text-wrapper_25 {
+  width: 8.96rem;
+  height: 3.227rem;
+  margin-left: 2.267rem;
+}
+
+.text_64 {
+  width: 8.934rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 0.027rem;
+}
+
+.text_65 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-top: 1.84rem;
+}
+
+.text-wrapper_26 {
+  width: 6.694rem;
+  height: 3.227rem;
+  margin-left: 2.427rem;
+}
+
+.text_66 {
+  width: 6.694rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_67 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-top: 2.027rem;
+}
+
+.section_8 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.254rem 0 0 0.054rem;
+}
+
+/* 循环录制 等 */
+.text-wrapper_27 {
+  width: 22.934rem;
+  height: 0.774rem;
+  margin: 0.054rem 0 0 35.467rem;
+}
+
+.text_68 {
+  width: 5.574rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_69 {
+  width: 8.08rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 3.974rem;
+}
+
+.text_70 {
+  width: 1.974rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 3.334rem;
+}
+
+.text-wrapper_28 {
+  width: 21.414rem;
+  height: 0.614rem;
+  margin: 0.534rem 0 0 35.44rem;
+}
+
+.text_71 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+}
+
+.text_72 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 9.174rem;
+}
+
+.text_73 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 10.96rem;
+}
+
+.block_14 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.334rem 0 0 35.494rem;
+}
+
+/* 内置GPS 等 */
+.text-wrapper_29 {
+  width: 25.84rem;
+  height: 0.747rem;
+  margin: 1.307rem 0 0 35.467rem;
+}
+
+.text_74 {
+  width: 4.267rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_75 {
+  width: 4.267rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 5.307rem;
+}
+
+.text_76 {
+  width: 4.907rem;
+  height: 0.587rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 7.094rem;
+}
+
+.text-wrapper_30 {
+  width: 27.947rem;
+  height: 0.774rem;
+  margin: 0.56rem 0 0 35.44rem;
+}
+
+.text_77 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+}
+
+.text_78 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 9.174rem;
+}
+
+.text_79 {
+  width: 6.96rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 10.96rem;
+}
+
+.block_15 {
+  background-color: var(--color-divider);
+  width: 28.507rem;
+  height: 0.027rem;
+  margin: 1.334rem 0 0 35.494rem;
+}
+
+/* 存储 等 */
+.text-wrapper_31 {
+  width: 24.934rem;
+  height: 0.774rem;
+  margin: 1.307rem 0 0 35.44rem;
+}
+
+.text_80 {
+  width: 2.88rem;
+  height: 0.774rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+}
+
+.text_81 {
+  width: 5.734rem;
+  height: 0.747rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin-left: 6.72rem;
+}
+
+.text_82 {
+  width: 3.92rem;
+  height: 0.56rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-primary);
+  font-size: 0.72rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.36rem;
+  margin: 0.027rem 0 0 5.68rem;
+}
+
+.text-wrapper_32 {
+  width: 23.334rem;
+  height: 0.774rem;
+  margin: 0.534rem 0 22.534rem 35.467rem;
+}
+
+.text_83 {
+  width: 7.947rem;
+  height: 0.534rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-top: 0.08rem;
+}
+
+.text_84 {
+  width: 0.427rem;
+  height: 0.614rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin-left: 1.627rem;
+}
+
+.text_85 {
+  width: 2.374rem;
+  height: 0.694rem;
+  overflow-wrap: break-word;
+  color: var(--color-text-secondary);
+  font-size: 0.694rem;
+  font-family: var(--font-body);
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.067rem;
+  margin: 0.08rem 0 0 10.96rem;
+}
+
+/* =====================
+   滚动区域触发动画
+   ===================== */
+
+/* 初始状态 — 隐藏并偏移 */
+.anim-hidden {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.anim-hidden.anim-left {
+  transform: translateX(-60px);
+}
+
+.anim-hidden.anim-right {
+  transform: translateX(60px);
+}
+
+.anim-hidden.anim-scale {
+  transform: scale(0.92);
+}
+
+/* 可见状态（兼容两种类名） */
+.anim-visible,
+.anim-hidden.visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
+/* 导航栏滚动效果 */
+.box_1 {
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.box_1.scrolled {
+  box-shadow: 0 0.054rem 0.534rem rgba(0, 0, 0, 0.15);
+}
+
+/* 延迟辅助类 */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
