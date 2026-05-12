@@ -2101,3 +2101,27 @@
 .delay-3 { transition-delay: 0.3s; }
 .delay-4 { transition-delay: 0.4s; }
 .delay-5 { transition-delay: 0.5s; }
+
+/* =====================
+   图片悬停放大效果（仅中小尺寸图片）
+   ===================== */
+
+/* 过渡 */
+.image_2,
+.image_3,
+.image_4,
+.image_12,
+.image_13 {
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* 悬停放大 — 小图在父级 .anim-hidden.visible 内部 */
+.anim-hidden.visible .image_2:hover,
+.anim-hidden.visible .image_3:hover,
+.anim-hidden.visible .image_4:hover,
+.anim-hidden.visible .image_12:hover,
+.image_13:hover {
+  transform: scale(1.08);
+  z-index: 2;
+  position: relative;
+}

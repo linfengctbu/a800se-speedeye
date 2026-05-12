@@ -1,0 +1,1089 @@
+/* ============================================
+   responsive.css — 移动端响应式覆盖样式
+   仅在 .is-mobile (≤768px 视口宽度) 时生效
+   参考蓝湖移动端设计稿 (750px 基准, vw 单位)
+   ============================================ */
+
+/* =====================
+   0. 全局布局覆盖
+   ===================== */
+
+.is-mobile .page,
+.is-mobile .section_1 {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.is-mobile .section_1 {
+  background: none;
+}
+
+.is-mobile .box_2 {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 0;
+}
+
+/* 滚动动画在移动端使用更小的偏移 */
+.is-mobile .anim-hidden {
+  transform: translateY(30px);
+}
+
+/* desktop-only / mobile-only 切换 */
+.is-mobile .desktop-only {
+  display: none !important;
+}
+.mobile-only {
+  display: none !important;
+}
+.is-mobile .mobile-only {
+  display: flex !important;
+}
+
+/* =====================
+   1. 导航栏 — 移动端汉堡菜单
+   ===================== */
+
+.is-mobile .box_1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vw;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+
+.is-mobile .image_1 {
+  width: 18.67vw;
+  height: 4.8vw;
+  margin: 0;
+}
+
+/* 桌面端导航项在移动端隐藏 */
+.is-mobile .text_1,
+.is-mobile .text_2,
+.is-mobile .text_3,
+.is-mobile .text_4,
+.is-mobile .text_5,
+.is-mobile .text_6,
+.is-mobile .label_1,
+.is-mobile .text-wrapper_1 {
+  display: none;
+}
+
+/* 汉堡菜单按钮 */
+.hamburger-btn {
+  display: none;
+}
+
+.is-mobile .hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 110;
+}
+
+.is-mobile .hamburger-btn span {
+  display: block;
+  width: 5.33vw;
+  height: 0.53vw;
+  background-color: #2c2c31;
+  border-radius: 0.27vw;
+  margin: 0.8vw 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+/* 汉堡菜单滑出面板 */
+.mobile-nav {
+  display: none;
+}
+
+.is-mobile .mobile-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 75vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 200;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  padding: 20vw 6vw 6vw;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+}
+
+.is-mobile .mobile-nav.open {
+  transform: translateX(0);
+}
+
+.is-mobile .mobile-nav .mobile-nav-item {
+  display: block;
+  padding: 3vw 0;
+  font-size: 4.27vw;
+  font-family: Manrope-Regular, sans-serif;
+  color: #2c2c31;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(44,44,49,0.1);
+}
+
+.is-mobile .mobile-nav .mobile-nav-close {
+  position: absolute;
+  top: 3vw;
+  right: 4vw;
+  font-size: 6vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #2c2c31;
+}
+
+/* 遮罩层 */
+.mobile-nav-overlay {
+  display: none;
+}
+
+.is-mobile .mobile-nav-overlay {
+  display: block;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 150;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.is-mobile .mobile-nav-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+/* =====================
+   2. Hero 主视觉区 — 移动端
+   ===================== */
+
+.is-mobile .text-wrapper_2 {
+  width: 100vw;
+  height: auto;
+  min-height: 181.34vw;
+  background: url(../img/mobile/8b6f29e806b13cc17d4735cc4088940b.png) 100% no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 19.86vw 0 0;
+  margin-top: 12vw; /* 为固定导航留出空间 */
+}
+
+.is-mobile .paragraph_1 {
+  width: auto;
+  max-width: 72.54vw;
+  height: auto;
+  font-size: 9.33vw;
+  line-height: 10.8vw;
+  text-align: center;
+  white-space: normal;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.is-mobile .text_8 {
+  width: auto;
+  max-width: 44vw;
+  height: auto;
+  font-size: 9.33vw;
+  line-height: 9.34vw;
+  margin: 2.93vw auto 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.is-mobile .text_9 {
+  width: auto;
+  max-width: 72.54vw;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  text-align: center;
+  white-space: normal;
+  margin: 5vw auto 0;
+  color: #fff;
+}
+
+/* =====================
+   3. 六大功能卡片 — 移动端
+   ===================== */
+
+.is-mobile .block_1,
+.is-mobile .block_2,
+.is-mobile .block_3 {
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  align-items: center;
+}
+
+.is-mobile .block_1 {
+  margin-top: 6vw;
+}
+
+/* 卡片通用样式 */
+.is-mobile .text-wrapper_3,
+.is-mobile .text-wrapper_4 {
+  width: 88.27vw;
+  height: 46vw;
+  margin: 2.66vw 0 0;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_3 {
+  background: url(../img/mobile/a6bb44df2d7d2bc4e17638a6de232237.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_4 {
+  background: url(../img/mobile/89a50a7f2e73305e91c3fbe155fb41ef.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_5,
+.is-mobile .text-wrapper_6 {
+  width: 88.27vw;
+  height: 59.6vw;
+  margin: 2.66vw 0 0;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_5 {
+  background: url(../img/mobile/ab4d43026952e153ecbdd92d5a5fd981.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_6 {
+  background: url(../img/mobile/3136f5ee0c607b62b4c9b35ce02a0b62.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_7,
+.is-mobile .text-wrapper_8 {
+  width: 44.8vw;
+  height: 31.2vw;
+  margin: 2.66vw 0 0;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_7 {
+  background: url(../img/mobile/7cfe613e9f57790d38464879ef4d35b6.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_8 {
+  background: url(../img/mobile/06450dd2d1dcea9ecd324a88ef931df5.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .image_2 {
+  display: none;
+}
+
+/* 功能卡片文字定位 */
+.is-mobile .paragraph_2 {
+  font-size: 5.33vw;
+  line-height: 6.67vw;
+  margin: 3.46vw 0 0 4vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+}
+
+.is-mobile .paragraph_3 {
+  font-size: 5.33vw;
+  line-height: 6.67vw;
+  margin: 3.2vw 0 0 3.86vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+}
+
+.is-mobile .text_10 {
+  font-size: 4.53vw;
+  line-height: 5.87vw;
+  margin: 6vw 0 0 3.86vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+}
+
+.is-mobile .paragraph_4 {
+  font-size: 4.53vw;
+  line-height: 5.87vw;
+  margin: 6.13vw 0 0 3.86vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+}
+
+.is-mobile .paragraph_5 {
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  margin: 4vw 0 0 4vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+}
+
+.is-mobile .text_11 {
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  margin: 4vw 0 0 4vw;
+  width: auto;
+  height: auto;
+  white-space: normal;
+  text-align: left;
+}
+
+/* =====================
+   4. 全宽横幅 "Engineered for Vietnam"
+   ===================== */
+
+.is-mobile .text-wrapper_9 {
+  width: 100vw;
+  height: auto;
+  min-height: 70vw;
+  margin-top: 6vw;
+  background: url(../img/mobile/df814b626cabe1fdec13abbdead67a7f.png) 100% no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.is-mobile .paragraph_6 {
+  width: auto;
+  max-width: 80vw;
+  height: auto;
+  font-size: 5.33vw;
+  line-height: 7.5vw;
+  text-align: center;
+  white-space: normal;
+  margin: 0 auto;
+  text-shadow: 0 0.054rem 0.427rem rgba(0,0,0,0.47);
+}
+
+/* =====================
+   5. Precision Speed + Traffic Signs + 4G
+   ===================== */
+
+.is-mobile .block_4,
+.is-mobile .block_5 {
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  margin: 6vw 0 0;
+  align-items: center;
+}
+
+.is-mobile .block_5 {
+  flex-direction: column-reverse;
+}
+
+.is-mobile .text-wrapper_10,
+.is-mobile .text-wrapper_11 {
+  width: 88.27vw;
+  height: auto;
+  margin: 0;
+  padding: 4vw 0;
+  text-align: center;
+}
+
+.is-mobile .text_12,
+.is-mobile .text_14 {
+  width: auto;
+  height: auto;
+  font-size: 5.33vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.is-mobile .text_13,
+.is-mobile .text_15 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  text-align: center;
+  margin: 2vw 0 0;
+}
+
+.is-mobile .image_3,
+.is-mobile .image_4 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw 0;
+}
+
+.is-mobile .text_16 {
+  width: 88.27vw;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 4vw auto;
+  text-align: center;
+}
+
+.is-mobile .text_17 {
+  width: auto;
+  height: auto;
+  font-size: 5.87vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  text-align: center;
+  margin: 6vw auto 0;
+}
+
+.is-mobile .text-group_1 {
+  width: 88.27vw;
+  height: auto;
+  margin: 3vw auto;
+}
+
+.is-mobile .text_18 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.is-mobile .text_19 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  text-align: center;
+  margin: 2vw auto 0;
+}
+
+/* =====================
+   6. App Live Streaming — 移动端
+   ===================== */
+
+.is-mobile .block_6 {
+  width: 100vw;
+  height: auto;
+  min-height: 60vw;
+  margin: 6vw 0 0;
+  background-color: #2b2b2b;
+}
+
+.is-mobile .text-wrapper_12 {
+  width: 100vw;
+  height: auto;
+  min-height: 60vw;
+  padding: 6vw;
+}
+
+.is-mobile .text_20 {
+  width: auto;
+  height: auto;
+  font-size: 5.33vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  margin: 0;
+}
+
+.is-mobile .text_21 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 2vw 0 0;
+}
+
+/* =====================
+   7. 双功能并排 (Instant App Alert + Live GPS)
+   ===================== */
+
+.is-mobile .block_7 {
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  margin: 6vw 0 0;
+  align-items: center;
+  gap: 2.66vw;
+}
+
+.is-mobile .box_3,
+.is-mobile .box_4 {
+  width: 88.27vw;
+  height: auto;
+  min-height: 59.6vw;
+  background-size: 100% 100%;
+}
+
+.is-mobile .box_3 {
+  background: url(../img/mobile/de2ca15c19773b2818f511d5f039b6a3.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .box_4 {
+  background: url(../img/mobile/47981f2e4d05b840feb3461da977b03e.png) 100% no-repeat;
+  background-size: 100% 100%;
+}
+
+.is-mobile .text-wrapper_13,
+.is-mobile .text-wrapper_14 {
+  width: 100%;
+  height: auto;
+  min-height: 59.6vw;
+  padding: 4vw;
+}
+
+.is-mobile .text_22,
+.is-mobile .text_24 {
+  width: auto;
+  height: auto;
+  font-size: 4.53vw;
+  line-height: 6.67vw;
+  white-space: normal;
+  margin: 4vw 0 0 3.86vw;
+}
+
+.is-mobile .text_23,
+.is-mobile .text_25 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 2vw 0 0 3.86vw;
+}
+
+/* =====================
+   8. 三功能卡片 (Find My Car / Cloud Storage / Battery)
+   ===================== */
+
+.is-mobile .block_8 {
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  margin: 6vw 0 0;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2.66vw;
+  flex-wrap: wrap;
+}
+
+.is-mobile .block_8 .text-wrapper_15,
+.is-mobile .block_8 .text-wrapper_17 {
+  width: 42.67vw;
+  height: auto;
+  min-height: 42.67vw;
+  background-size: 100% 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 4vw;
+}
+
+.is-mobile .text_26,
+.is-mobile .text_28,
+.is-mobile .text_30 {
+  width: auto;
+  height: auto;
+  font-size: 4.53vw;
+  line-height: 6.67vw;
+  white-space: normal;
+  margin: 0 0 1vw 2vw;
+}
+
+.is-mobile .text_27,
+.is-mobile .text_29,
+.is-mobile .text_31 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 0 0 0 2vw;
+}
+
+/* 移动端单独云存储区块 */
+.is-mobile .mobile-cloud-storage {
+  width: 100vw;
+  margin: 6vw 0 0;
+  align-items: center;
+}
+.is-mobile .mobile-cloud-storage .text-wrapper_16 {
+  width: 88.27vw;
+  height: auto;
+  min-height: 42.67vw;
+  background: url(../img/mobile/de2ca15c19773b2818f511d5f039b6a3.png) 100% no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 4vw;
+  margin: 0 auto;
+}
+
+/* 移动端：block_8 中隐藏 Cloud Storage（已在移动端单独显示） */
+.is-mobile .block_8 .text-wrapper_16 {
+  display: none;
+}
+
+/* =====================
+   9. 24H Smart Parking Surveillance — 移动端
+   ===================== */
+
+.is-mobile .text-group_2 {
+  width: 88.27vw;
+  height: auto;
+  margin: 6vw auto 0;
+}
+
+.is-mobile .text_32 {
+  width: auto;
+  height: auto;
+  font-size: 5.87vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.is-mobile .text_33 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  text-align: center;
+  margin: 2vw 0 0;
+}
+
+.is-mobile .text_34 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.27vw;
+  white-space: normal;
+  text-align: center;
+  margin: 2vw auto 0;
+}
+
+.is-mobile .image_5 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto;
+  display: block;
+}
+
+/* =====================
+   10. Tab 选择器 — 移动端
+   ===================== */
+
+.is-mobile .text-wrapper_18 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto 0;
+  justify-content: center;
+  gap: 4vw;
+}
+
+.is-mobile .text_35,
+.is-mobile .text_36 {
+  width: auto;
+  height: auto;
+  font-size: 4.27vw;
+  line-height: 6vw;
+  white-space: normal;
+  text-align: center;
+}
+
+.is-mobile .block_9 {
+  width: 88.27vw;
+  margin: 2vw auto 0;
+}
+
+.is-mobile .text_37 {
+  width: 88.27vw;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.27vw;
+  white-space: normal;
+  margin: 2vw auto 0;
+  text-align: center;
+}
+
+/* =====================
+   11. Supercapacitor — 移动端
+   ===================== */
+
+.is-mobile .text_38 {
+  width: auto;
+  height: auto;
+  font-size: 5.87vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  text-align: center;
+  margin: 6vw auto 0;
+}
+
+.is-mobile .text-group_3 {
+  width: 88.27vw;
+  height: auto;
+  margin: 3vw auto;
+}
+
+.is-mobile .text_39 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.is-mobile .text_40 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.27vw;
+  white-space: normal;
+  text-align: center;
+  margin: 2vw auto 0;
+}
+
+.is-mobile .image_6 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto;
+  display: block;
+}
+
+.is-mobile .block_10 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto;
+  justify-content: space-around;
+  gap: 2vw;
+}
+
+.is-mobile .image_7,
+.is-mobile .image_8,
+.is-mobile .image_9 {
+  width: 8vw;
+  height: 8vw;
+  margin: 0;
+}
+
+.is-mobile .text_41,
+.is-mobile .text_42,
+.is-mobile .text_43 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.27vw;
+  white-space: normal;
+  margin: 0 0 0 1vw;
+}
+
+/* =====================
+   12. Comprehensive Protection 轮播 — 移动端
+   ===================== */
+
+.is-mobile .block_11 {
+  width: 88.27vw;
+  height: auto;
+  margin: 6vw auto 0;
+}
+
+.is-mobile .text_44 {
+  width: auto;
+  height: auto;
+  font-size: 5.87vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  margin: 0;
+}
+
+.is-mobile .image_10 {
+  margin-left: 8vw;
+}
+
+.is-mobile .image_10,
+.is-mobile .image_11 {
+  width: 8vw;
+  height: 8vw;
+}
+
+.is-mobile .block_12 {
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto;
+  overflow: hidden;
+}
+
+.is-mobile .carousel-track {
+  gap: 0;
+  justify-content: flex-start;
+}
+
+.is-mobile .carousel-item {
+  flex: 0 0 88.27vw;
+  width: 88.27vw;
+  height: auto;
+  min-height: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.is-mobile .box_7,
+.is-mobile .box_9,
+.is-mobile .box_10,
+.is-mobile .box_11 {
+  width: 88.27vw;
+  height: auto;
+  min-height: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.is-mobile .box_8,
+.is-mobile .section_2,
+.is-mobile .group_1 {
+  width: 88.27vw;
+  height: 50vw;
+}
+
+.is-mobile .image_12 {
+  width: 88.27vw;
+  height: 50vw;
+}
+
+.is-mobile .carousel-dots {
+  width: 88.27vw;
+  margin: 2vw auto;
+  gap: 2vw;
+}
+
+.is-mobile .carousel-dot {
+  width: 2.13vw;
+  height: 2.13vw;
+}
+
+/* =====================
+   13. Specs 规格表 — 移动端
+   ===================== */
+
+.is-mobile .text_51 {
+  width: auto;
+  height: auto;
+  font-size: 5.87vw;
+  line-height: 7.5vw;
+  white-space: normal;
+  text-align: center;
+  margin: 8vw auto 0;
+}
+
+.is-mobile .block_13 {
+  flex-direction: column;
+  width: 88.27vw;
+  height: auto;
+  margin: 4vw auto;
+  align-items: center;
+}
+
+.is-mobile .image_13 {
+  display: none;
+}
+
+.is-mobile .section_3 {
+  width: 100%;
+  height: auto;
+}
+
+.is-mobile .text-wrapper_19,
+.is-mobile .text-wrapper_21,
+.is-mobile .text-wrapper_23 {
+  width: 100%;
+  height: auto;
+  margin: 2vw 0;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+
+.is-mobile .text_52, .is-mobile .text_53, .is-mobile .text_54,
+.is-mobile .text_55, .is-mobile .text_56, .is-mobile .text_57,
+.is-mobile .text_58, .is-mobile .text_59, .is-mobile .text_60 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.is-mobile .text-wrapper_20,
+.is-mobile .text-wrapper_22,
+.is-mobile .text-wrapper_24 {
+  width: 100%;
+  height: auto;
+  margin: 2vw 0;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+
+.is-mobile .paragraph_10, .is-mobile .paragraph_11, .is-mobile .paragraph_12,
+.is-mobile .paragraph_13, .is-mobile .paragraph_14, .is-mobile .paragraph_15,
+.is-mobile .paragraph_16 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+  white-space: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.is-mobile .text_61, .is-mobile .text_62 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+  margin: 0;
+}
+
+.is-mobile .section_4,
+.is-mobile .section_5,
+.is-mobile .section_6,
+.is-mobile .section_8 {
+  width: 100%;
+  height: 0.27vw;
+  margin: 2vw 0;
+}
+
+.is-mobile .section_7 {
+  width: 100%;
+  height: auto;
+  margin: 2vw 0;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.is-mobile .text-group_7,
+.is-mobile .text-wrapper_25,
+.is-mobile .text-wrapper_26 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+}
+
+.is-mobile .paragraph_17,
+.is-mobile .text_64,
+.is-mobile .text_66 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 0;
+}
+
+.is-mobile .text_63,
+.is-mobile .text_65,
+.is-mobile .text_67 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+  margin: 0;
+}
+
+/* 规格表后续行 */
+.is-mobile .text-wrapper_27,
+.is-mobile .text-wrapper_29,
+.is-mobile .text-wrapper_31 {
+  width: 88.27vw;
+  height: auto;
+  margin: 2vw auto;
+  justify-content: space-between;
+}
+
+.is-mobile .text-wrapper_28,
+.is-mobile .text-wrapper_30,
+.is-mobile .text-wrapper_32 {
+  width: 88.27vw;
+  height: auto;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.is-mobile .text_68, .is-mobile .text_69, .is-mobile .text_70,
+.is-mobile .text_74, .is-mobile .text_75, .is-mobile .text_76,
+.is-mobile .text_80, .is-mobile .text_81, .is-mobile .text_82 {
+  width: auto;
+  height: auto;
+  font-size: 3.73vw;
+  line-height: 5.33vw;
+  white-space: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.is-mobile .text_71, .is-mobile .text_72, .is-mobile .text_73,
+.is-mobile .text_77, .is-mobile .text_78, .is-mobile .text_79,
+.is-mobile .text_83, .is-mobile .text_84, .is-mobile .text_85 {
+  width: auto;
+  height: auto;
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+  margin: 0;
+  text-align: center;
+}
+
+.is-mobile .block_14,
+.is-mobile .block_15 {
+  width: 88.27vw;
+  height: 1px;
+  margin: 2vw auto;
+  background-color: #2c2c31;
+}

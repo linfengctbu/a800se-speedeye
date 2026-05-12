@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="./css/common.css" />
   <link rel="stylesheet" type="text/css" href="./css/variables.css" />
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css" />
 </head>
 <body>
   <div class="page flex-col">
@@ -37,7 +38,26 @@
         <div class="text-wrapper_1 flex-col">
           <span class="text_7">Store</span>
         </div>
+        <!-- 汉堡菜单按钮（移动端显示） -->
+        <button class="hamburger-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
+
+      <!-- 移动端导航菜单 -->
+      <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Close">&times;</button>
+        <a class="mobile-nav-item" href="#">Dash Cams</a>
+        <a class="mobile-nav-item" href="#">Accessories</a>
+        <a class="mobile-nav-item" href="#">Support</a>
+        <a class="mobile-nav-item" href="#">Where to Buy</a>
+        <a class="mobile-nav-item" href="#">About 70mai</a>
+        <a class="mobile-nav-item" href="#">Share Your Footage</a>
+        <a class="mobile-nav-item" href="#">Store</a>
+      </div>
+      <div class="mobile-nav-overlay"></div>
 
       <!-- ===================== -->
       <!-- 页面内容容器          -->
@@ -226,6 +246,16 @@
           </div>
         </div>
 
+        <!-- 移动端单独云存储区块（从三功能卡片中独立出来） -->
+        <div class="mobile-cloud-storage mobile-only flex-col anim-hidden">
+          <div class="text-wrapper_16 flex-col">
+            <span class="text_28">Cloud&nbsp;Storage</span>
+            <span class="text_29">
+              Automatically&nbsp;upload&nbsp;collision&nbsp;footage&nbsp;to&nbsp;the&nbsp;cloud,&nbsp;ensuring&nbsp;critical&nbsp;evidence&nbsp;is&nbsp;never&nbsp;lost&nbsp;and&nbsp;always&nbsp;accessible.
+            </span>
+          </div>
+        </div>
+
         <!-- ===================== -->
         <!-- 12. 停车监控         -->
         <!-- ===================== -->
@@ -378,18 +408,53 @@
                 Control&nbsp;view,&nbsp;and&nbsp;download&nbsp;footage&nbsp;from&nbsp;your&nbsp;phone&nbsp;via&nbsp;the&nbsp;70mai&nbsp;app&nbsp;with&nbsp;built-in&nbsp;Wi-Fi.
               </span>
             </div>
+            <!-- 卡片 5（移动端显示） -->
+            <div class="box_7 flex-col carousel-item mobile-only">
+              <div class="box_8 flex-col"></div>
+              <div class="text-group_4 flex-col">
+                <span class="paragraph_7">
+                  Buffered&nbsp;Emergency<br />Recording
+                </span>
+                <span class="text_45">
+                  Captures&nbsp;3&nbsp;min&nbsp;10s&nbsp;before&nbsp;and&nbsp;30s&nbsp;after&nbsp;incidents.&nbsp;Vital&nbsp;clips&nbsp;are&nbsp;auto-saved&nbsp;to&nbsp;a&nbsp;secure&nbsp;"Emergency"&nbsp;folder.
+                </span>
+                <span class="text_46">
+                  *Actual&nbsp;length&nbsp;depends&nbsp;on&nbsp;loop&nbsp;timing&nbsp;and&nbsp;set&nbsp;duration&nbsp;(1,&nbsp;2,&nbsp;or&nbsp;3&nbsp;min).
+                </span>
+              </div>
+            </div>
+            <!-- 卡片 6（移动端显示） -->
+            <div class="box_9 flex-col carousel-item mobile-only">
+              <div class="section_2 flex-col"></div>
+              <div class="text-group_5 flex-col justify-between">
+                <span class="paragraph_8">
+                  Built-in<br />GPS&nbsp;&amp;&nbsp;ADAS
+                </span>
+                <span class="text_47">
+                  GPS&nbsp;pinpoints&nbsp;your&nbsp;real-time&nbsp;location,&nbsp;logs&nbsp;your&nbsp;speed&nbsp;and&nbsp;time.&nbsp;ADAS&nbsp;warns&nbsp;you&nbsp;of&nbsp;risky&nbsp;driving.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="carousel-dots" id="carouselDots">
+        <div class="carousel-dots desktop-only" id="carouselDots">
           <span class="carousel-dot active" data-index="0"></span>
           <span class="carousel-dot" data-index="1"></span>
+        </div>
+        <div class="carousel-dots mobile-only" id="carouselDotsMobile">
+          <span class="carousel-dot active" data-index="0"></span>
+          <span class="carousel-dot" data-index="1"></span>
+          <span class="carousel-dot" data-index="2"></span>
+          <span class="carousel-dot" data-index="3"></span>
+          <span class="carousel-dot" data-index="4"></span>
+          <span class="carousel-dot" data-index="5"></span>
         </div>
 
         <!-- ===================== -->
         <!-- 17. Specs 规格表     -->
         <!-- ===================== -->
-        <span class="text_51 anim-hidden">Specs</span>
-        <div class="block_13 flex-row justify-between anim-hidden">
+        <span class="text_51">Specs</span>
+        <div class="block_13 flex-row justify-between">
           <img
             class="image_13"
             referrerpolicy="no-referrer"
@@ -479,36 +544,36 @@
         </div>
 
         <!-- 额外规格行（右侧区域） -->
-        <div class="text-wrapper_27 flex-row anim-hidden">
+        <div class="text-wrapper_27 flex-row">
           <span class="text_68">Loop&nbsp;Recording</span>
           <span class="text_69">Time-Lapse&nbsp;Recording&nbsp;</span>
           <span class="text_70">ADAS&nbsp;</span>
         </div>
-        <div class="text-wrapper_28 flex-row anim-hidden">
+        <div class="text-wrapper_28 flex-row">
           <span class="text_71">√</span>
           <span class="text_72">√</span>
           <span class="text_73">√</span>
         </div>
         <div class="block_14 flex-col"></div>
 
-        <div class="text-wrapper_29 flex-row anim-hidden">
+        <div class="text-wrapper_29 flex-row">
           <span class="text_74">Built-in&nbsp;GPS&nbsp;</span>
           <span class="text_75">App&nbsp;Control&nbsp;</span>
           <span class="text_76">Voice&nbsp;Control&nbsp;</span>
         </div>
-        <div class="text-wrapper_30 flex-row anim-hidden">
+        <div class="text-wrapper_30 flex-row">
           <span class="text_77">√</span>
           <span class="text_78">√</span>
           <span class="text_79">√(English&nbsp;&amp;&nbsp;Mandarin)</span>
         </div>
         <div class="block_15 flex-col"></div>
 
-        <div class="text-wrapper_31 flex-row anim-hidden">
+        <div class="text-wrapper_31 flex-row">
           <span class="text_80">Storage&nbsp;</span>
           <span class="text_81">SuperCapacitor&nbsp;</span>
           <span class="text_82">Power&nbsp;Port&nbsp;</span>
         </div>
-        <div class="text-wrapper_32 flex-row anim-hidden">
+        <div class="text-wrapper_32 flex-row">
           <span class="text_83">32&nbsp;~&nbsp;512GB&nbsp;MicroSD&nbsp;Card</span>
           <span class="text_84">√</span>
           <span class="text_85">Type-C</span>
